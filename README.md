@@ -1,6 +1,6 @@
-# AI Sales Role Play
+# AI Sales Role Play: open-source voice practice for in-home sales
 
-Practice in-home sales conversations out loud with a voice AI homeowner who pushes back, then get a coaching scorecard on what you said.
+An open-source AI sales role-play trainer for roofing, HVAC and window reps. Practice in-home sales conversations out loud with a voice AI homeowner who pushes back, then get a coaching scorecard on what you said.
 
 Built with Next.js and the OpenAI Realtime API over WebRTC. The server starts and ends every call, so the browser never holds an OpenAI key. Ships with three homeowners: a five-stage storm restoration program, an HVAC replace-or-repair talk, and a window replacement price objection.
 
@@ -127,6 +127,10 @@ npm run check:licenses   # fails on GPL- or AGPL-only dependencies
 
 Code: [Apache-2.0](LICENSE). Persona text in `content/`: [CC BY 4.0](content/LICENSE). Keep the [NOTICE](NOTICE) file with any copy. See [TRADEMARKS.md](TRADEMARKS.md) for the product names.
 
-## Built by GoodHandoff
+## Why it's free
 
-GoodHandoff builds and runs the automation that carries a home service job from the first call to the final payment, inside the company's own CRM, phone and texting tools. We publish this kit so developers can run voice role-play on their own OpenAI key and adapt it to their trade. More about us at [goodhandoff.com](https://goodhandoff.com/?utm_source=github&utm_medium=readme&utm_campaign=ai-sales-roleplay).
+Reps get better by saying the words out loud before the door opens. The hard part has always been finding twenty minutes and a manager willing to play a skeptical homeowner. A voice model can play the homeowner now, and the code fits in one repo, so here it is, on your own OpenAI key.
+
+What it won't do is fit practice into your Monday sales meeting, or tie it to the jobs your reps actually ran last week. That's the kind of work we do. The code is free. The handoff is the work.
+
+**GoodHandoff** builds and runs the automation that carries a home service job from the first call to the final payment, inside the company's own CRM, phone and texting tools: [goodhandoff.com](https://goodhandoff.com/?utm_source=github&utm_medium=readme&utm_campaign=ai-sales-roleplay&utm_content=footer).
