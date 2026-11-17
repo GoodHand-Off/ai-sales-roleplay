@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Brand colors used by the components. */
+@theme {
+  --color-navy: #183a63;
+  --color-navy-dark: #102844;
+  --color-cyan: #17d4ef;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-slate-50);
+    color: var(--color-slate-900);
+  }
+}

@@ -1,0 +1,30 @@
+name: Bug report
+description: Something in the kit doesn't work.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 142 on macOS, Safari on iPhone...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Kit version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Server or browser console output
+      description: Remove any API keys, call IDs you consider private and personal details before pasting.
+      render: text

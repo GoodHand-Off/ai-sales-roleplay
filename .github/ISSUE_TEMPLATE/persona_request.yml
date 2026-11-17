@@ -1,0 +1,31 @@
+name: Request a homeowner for your trade
+description: Tell us which homeowner you want to practice against.
+title: "Persona request: "
+labels: ["persona"]
+body:
+  - type: input
+    id: trade
+    attributes:
+      label: Trade
+      description: Roofing, siding, gutters, solar, HVAC, windows, bath remodel...
+    validations:
+      required: true
+  - type: textarea
+    id: situation
+    attributes:
+      label: The situation
+      description: Where does the conversation happen, and what just happened? (Door knock, kitchen table, after an adjuster visit...)
+    validations:
+      required: true
+  - type: textarea
+    id: objections
+    attributes:
+      label: Objections your reps hear
+      description: In the homeowner's own words, if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Please don't include real customer names, addresses or recordings.
