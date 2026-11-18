@@ -21,7 +21,7 @@ Tested on macOS 26.6. CI runs lint, type checks, tests and the build on Ubuntu w
 ## Quick start
 
 ```bash
-git clone https://github.com/nussbeck-labs/ai-sales-roleplay.git && cd ai-sales-roleplay
+git clone https://github.com/GoodHand-Off/ai-sales-roleplay.git && cd ai-sales-roleplay
 npm ci && cp .env.example .env.local   # then put your key after OPENAI_API_KEY= in .env.local
 npm run dev                            # then open http://127.0.0.1:3000 (or http://localhost:3000)
 ```

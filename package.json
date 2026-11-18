@@ -5,13 +5,13 @@
   "description": "Practice in-home sales conversations with a voice AI homeowner who pushes back.",
   "license": "Apache-2.0",
   "author": "GoodHandoff (https://goodhandoff.com)",
-  "homepage": "https://github.com/nussbeck-labs/ai-sales-roleplay#readme",
+  "homepage": "https://github.com/GoodHand-Off/ai-sales-roleplay#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nussbeck-labs/ai-sales-roleplay.git"
+    "url": "git+https://github.com/GoodHand-Off/ai-sales-roleplay.git"
   },
   "bugs": {
-    "url": "https://github.com/nussbeck-labs/ai-sales-roleplay/issues"
+    "url": "https://github.com/GoodHand-Off/ai-sales-roleplay/issues"
   },
   "engines": {
     "node": ">=22.12"
